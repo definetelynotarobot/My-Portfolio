@@ -5,8 +5,8 @@ import { AppProvider } from './context/AppContext'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-  <AppProvider>
-    <AppRouter />
-  </AppProvider>
+    <AppProvider>
+      <AppRouter />
+    </AppProvider>
   </React.StrictMode>
 )
