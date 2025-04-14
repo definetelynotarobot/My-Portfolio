@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom'
 import { useAppContext } from '../context/AppContext'
 import {Hero} from '../components/sections/Hero'
 import {Contact} from '../components/sections/Contact'
-import { ExperienceSteps} from '../components/sections/ExperienceSteps'
+import {ExperienceSteps} from '../components/sections/ExperienceSteps'
 import {SkillsSection} from '../components/sections/SkillsSection'
 
 
