@@ -5,6 +5,7 @@ import Dashboard from '../pages/Dashboard'
 import Login from '../pages/Login'
 import ProtectedRoute from './ProtectedRoute'
 
+
 export default function AppRouter() {
   return (
     <BrowserRouter>
