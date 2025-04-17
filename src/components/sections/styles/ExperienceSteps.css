@@ -1,0 +1,30 @@
+.experience-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 60px 40px;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.experience-section.reverse {
+  flex-direction: row-reverse;
+}
+
+.experience-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.experience-svg {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.experience-image {
+  max-width: 100%;
+  height: auto;
+}
