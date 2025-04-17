@@ -52,7 +52,6 @@ export function MercedesFrontend() {
           <ambientLight intensity={1} />
           <directionalLight position={[3, 2, 1]} />
           <MercedesCar color={color} />
-          <OrbitControls />
         </Canvas>
       </div>
 
